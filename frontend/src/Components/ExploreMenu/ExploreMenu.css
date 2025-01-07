@@ -1,0 +1,84 @@
+.explore-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+.explore-menu h1{
+    color: #262626;
+    font-weight: 500;
+}
+
+.explore-menu-text{
+    max-width: 60%;
+    columns: #808080;
+}
+  
+  .explore-menu-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+    margin: 20px 0px;
+    overflow-x: scroll;
+  }
+  
+  .explore-menu-list-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 180px; 
+}
+
+
+.explore-menu-list::-webkit-scrollbar {
+  height: 8px;
+}
+.explore-menu-list::-webkit-scrollbar-thumb {
+  background: #888;  
+  border-radius: 10px;
+}
+
+  
+  .explore-menu-list-item img {
+    width: 80px;
+    height: 80px;
+    max-width: 100%;  
+    max-height: 100%;  
+    object-fit: cover; 
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    margin-bottom: 10px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+  
+.explore-menu-list-item p {
+  font-size: max(1.5vw, 18px);  
+  color: #747474;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+
+.explore-menu hr{
+    margin: 10px 0px;
+    height: 2px;
+    background-color: #2e2e2e;
+    border: none;
+}
+  
+.explore-menu-list-item .active {
+  border: 3px solid darkorange;  
+  padding: 5px;  
+}
+
+
+@media (max-width:1050px){
+  .explore-menu-text{
+    max-width: 100%;
+    font-size: 14px;
+  }
+}
