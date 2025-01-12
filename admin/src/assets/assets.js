@@ -5,7 +5,7 @@ import orderIcon from './order_icon.png'
 import uploadArea from './upload_area.png'
 import parcelIcon from './parcel_icon.png'
 
-export const url="https://food-del-backend.netlify.app"
+export const url="food-delivery-shcs.vercel.app"
 export const currency = "usd"
 export const assets ={
     logo,
