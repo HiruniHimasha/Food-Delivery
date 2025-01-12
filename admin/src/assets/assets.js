@@ -5,7 +5,7 @@ import orderIcon from './order_icon.png'
 import uploadArea from './upload_area.png'
 import parcelIcon from './parcel_icon.png'
 
-export const url="https://capable-dragon-ab9695.netlify.app/"
+export const url="https://food-del-backend.netlify.app"
 export const currency = "usd"
 export const assets ={
     logo,
