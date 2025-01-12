@@ -6,7 +6,7 @@ const StoreContext = createContext(null);
 const StoreContextProvider = (props) => {
   const [cartItems, setCartItems] = useState({});
   const [loading, setLoading] = useState(true); // Loading state
-  const url = "food-delivery-ko5d.vercel.app";
+  const url = "https://food-del-backend.netlify.app";
   const [token, setToken] = useState("");
   const [food_list, setFoodList] = useState([]);
 
