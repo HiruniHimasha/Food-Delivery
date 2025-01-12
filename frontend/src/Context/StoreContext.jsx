@@ -6,7 +6,7 @@ const StoreContext = createContext(null);
 const StoreContextProvider = (props) => {
   const [cartItems, setCartItems] = useState({});
   const [loading, setLoading] = useState(true); // Loading state
-  const url = "food-delivery-backend-gray.vercel.app";
+  const url = "http://localhost/4000";
   const [token, setToken] = useState("");
   const [food_list, setFoodList] = useState([]);
 
